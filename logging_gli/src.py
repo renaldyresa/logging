@@ -87,7 +87,7 @@ class LogLocal(AbstractLogGLI):
     @decoLogKey
     def logStruct(self, severity, **kwargs):
         with open(f"{self.__path}/{self.__filename}", "a+") as f:
-            f.write(f"{severity}: {kwargs}")
+            f.write(f"{severity}: {kwargs}\n")
 
 
 class LogConsole(AbstractLogGLI):

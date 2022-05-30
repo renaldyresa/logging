@@ -8,7 +8,7 @@ pip install git+https://github.com/renaldyresa/logging-gli@main
 
 ## Configuration
 
-Pada file main.py project tambahkan syntax berikut:
+Pada file main.py project tambahkan syntax (syntax ini harus diletakkan pada awal file main.py) berikut:
 ```python
 import os
 os.environ["LOG_TYPE"] = "CONSOLE"
