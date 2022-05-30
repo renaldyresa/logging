@@ -1,0 +1,9 @@
+README.md
+setup.py
+logging_gli/__init__.py
+logging_gli/exceptions.py
+logging_gli/src.py
+logging_gli.egg-info/PKG-INFO
+logging_gli.egg-info/SOURCES.txt
+logging_gli.egg-info/dependency_links.txt
+logging_gli.egg-info/top_level.txt
