@@ -1,6 +1,11 @@
 from .src import LoggingGLI
 
-log = LoggingGLI(withLogKey=False)
+
+def __createLog():
+    return LoggingGLI(withLogKey=False)
+
+
+log = __createLog()
 
 __all__ = [
     "LoggingGLI",
