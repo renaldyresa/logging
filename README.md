@@ -1,4 +1,4 @@
-# Library Logging GLI
+# Library Logging
 
 ## Installation
 
@@ -25,7 +25,7 @@ Value APP_NAME, yaitu nama dari aplikasi yang di buat.
 
 ## Documentation
 
-cara menggunakan library Logging_GLI sebagai berikut:
+cara menggunakan library Logging sebagai berikut:
 
 ```python
 from logging_gli import LoggingGLI, log
